@@ -1,0 +1,64 @@
+/* Importación de Bootstrap */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* Estilos personalizados */
+body {
+  background-color: #1f3764a4; /* Fondo general */
+}
+
+.container {
+  margin-top: 50px; /* Margen superior */
+}
+
+/* Estilo para el reproductor de video */
+#video-container {
+  background-color: #ffffff; /* Fondo del reproductor de video */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los botones de reproducción */
+button {
+  margin: 10px;
+  display: block; /* Para centrar */
+  margin: 0 auto; /* Para centrar */
+  transition: background-color 0.3s; /* Efecto de transición */
+}
+
+button:hover {
+  background-color: #007bff; /* Color de fondo al hacer hover */
+  color: #fff; /* Cambia el color del texto al hacer hover */
+}
+
+/* Estilo para el encabezado */
+.header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+/* Estilo para los enlaces */
+a {
+  color: #61dafb;
+}
+
+/* Estilo para el logotipo (si tienes) */
+.logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Centramos los botones */
+.button-container {
+  text-align: center;
+}
